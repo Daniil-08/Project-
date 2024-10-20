@@ -1,0 +1,257 @@
+.main_first_section {
+  background-image: url("../imgs/Group\ 37\ \(1\)\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.main_h2 {
+  text-align: left;
+  color: #ffffff;
+  font-size: 144px;
+  font-weight: 400;
+  font-family: "Playfair Display";
+}
+
+.main_h3 {
+  color: #ffffff;
+  font-weight: 400;
+  text-align: left;
+  font-size: 72px;
+  font-family: "Playfair Display";
+}
+
+.main_first_text {
+  color: #ffffff;
+  font-family: "Roboto";
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  max-width: 508px;
+  margin-top: 12px;
+}
+
+.main_first_btn {
+  height: 67px;
+  width: 254px;
+  margin-top: 41px;
+  font-size: 24px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #8e32c6;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main_first_img {
+  padding-top: 94px;
+  padding-left: 14px;
+}
+
+.main_first_btn--wrapper {
+  padding-bottom: 183px;
+}
+
+.main_second_section {
+  background-image: url(/imgs/Group\ 8\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.main_second--card--text {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47.99px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 161px;
+}
+
+.main_second--card {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  align-items: center;
+}
+
+.main_second--card:first-child {
+  padding-right: 50px;
+  border-right: 1px solid #ffffff;
+}
+
+.main_second--card:last-child {
+  padding-left: 50px;
+  border-left: 1px solid #ffffff;
+}
+
+.main_second_section .main_container {
+  display: flex;
+  gap: 95px;
+  justify-content: center;
+  padding: 25px 50px;
+  border: 5px solid #8e32c6;
+}
+
+.main_second--card:first-child::after {
+  content: "";
+  background-image: url(../imgs/Звёзды\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 240px;
+  width: 240px;
+}
+
+.main_second--card:last-child::after {
+  content: "";
+  background-image: url(../imgs/Грузан\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 240px;
+  width: 240px;
+}
+
+.main_second--card:nth-child(2)::before {
+  content: "";
+  background-image: url(/imgs/Краски\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 240px;
+  width: 240px;
+}
+
+.main_third_section {
+  background-image: url(../imgs/Group\ 6\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.main_second_container {
+  width: 100%;
+  max-width: 951px;
+  margin: 0 auto;
+}
+
+.main_second_h2 {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 24px;
+}
+
+.main_third--cards--wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 114px;
+}
+
+.main_third--card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 49px 14px 29px 14px;
+}
+
+.main_third--card:first-child {
+  background: linear-gradient(
+    136.55deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+}
+.main_third--card:nth-child(2) {
+  background: linear-gradient(
+    136.55deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.main_third--card:nth-child(3) {
+  background: linear-gradient(
+    142.67deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.main_third--card--text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #ffffff;
+  max-width: 228px;
+  margin-bottom: 8px;
+}
+
+.main_third--card--date {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #d8d8d8;
+  margin-bottom: 47px;
+}
+
+.main_third--card--person {
+  display: flex;
+  gap: 5px;
+}
+
+.main_third--card--person--info {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.main_third--card--person--name {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #ffffff;
+}
+
+.main_third--person--date {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  color: #d8d8d8;
+}
+
+.main_third--card--person--date {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  color: #D8D8D8;
+}
